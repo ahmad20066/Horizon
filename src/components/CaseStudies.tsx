@@ -134,10 +134,6 @@ const CaseStudies: React.FC<CaseStudiesProps> = ({
         setIsAutoPlaying(false);
     };
 
-    const goToCase = (index: number) => {
-        setCurrentCase(index);
-        setIsAutoPlaying(false);
-    };
 
     if (cases.length === 0) {
         return null;

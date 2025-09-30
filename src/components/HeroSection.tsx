@@ -14,7 +14,6 @@ interface HeroProps {
 
 const HeroSection: React.FC<HeroProps> = ({
     eyebrowAr = "شريكك التسويقي",
-    title = "BE ON THE TOP",
     subtitle = "Advertising Agency in dubai",
     primaryCta = { label: "Start Your Project", href: "#contact" },
     secondaryCta = { label: "View Our Work", href: "#work" },
@@ -104,18 +103,6 @@ const HeroSection: React.FC<HeroProps> = ({
         }
     };
 
-    // Pulse animation for accents
-    const pulseVariants = {
-        animate: {
-            scale: [1, 1.05, 1],
-            opacity: [0.5, 0.8, 0.5],
-            transition: {
-                duration: 3,
-                repeat: Infinity,
-                ease: "easeInOut" as const
-            }
-        }
-    };
 
     return (
         <>

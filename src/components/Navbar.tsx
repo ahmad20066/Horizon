@@ -15,8 +15,6 @@ interface NavbarProps {
 const Navbar: React.FC<NavbarProps> = ({
     logoSrc,
     logoAlt = "Horizon Top Logo",
-    companyName = "Horizon Top",
-    tagline = "Be On The Top",
     navItems = [
         { label: "Services", href: "#services" },
         { label: "Portfolio", href: "#portfolio" },
